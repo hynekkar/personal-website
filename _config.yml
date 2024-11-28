@@ -1,7 +1,7 @@
 # Site settings
 
 # NB! Set your site's url, otherwise nothing will work
-url: "https://le4ker.github.io/personal-jekyll-theme"
+url: "https://hynek.org"
 
 # Google tracking id
 google-tracking-id: "UA-XXXXXXXX-X"
@@ -10,16 +10,16 @@ google-tracking-id: "UA-XXXXXXXX-X"
 # HTML Head #
 #############
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+author: "Karel Hynek"
+title: "Karel Hynek 🚀"
+description: "Personal Website"
 keywords: "smith, jones, personal, jekyll, theme"
 favicon: "/img/favicon.ico"
 ################
 # Header layout #
 ################
 black-favicon: "/img/black-lab-glass.ico"
-background-img: "../img/intro-bg.jpg"
+background-img: "/img/back.jpg"
 ##############################
 # Dynamic Text on the Header #
 ##############################
@@ -31,9 +31,12 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-me-img: "/img/jetpacktocat.png"
+  - text: "Network Security Researcher"
+  - text: "AI Researcher"
+  - text: "Assistant Professor"
+  - text: "Senior Researcher"
+  - text: "Cyber Security Enthusiast"
+me-img: "/img/me.jpg"
 # To use github profile pic uncomment the following line and replace 'user_name'
 # with your github user name.
 
@@ -57,10 +60,6 @@ apple-status-bar-style: "black"
 web-app-mode: True
 # Icons for Web App mode
 icon-36p: "/img/web-app/icon-36p.png"
-icon-48p: "/img/web-app/icon-48p.png"
-icon-72p: "/img/web-app/icon-72p.png"
-icon-96p: "/img/web-app/icon-96p.png"
-icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
 ########
 # Blog #
@@ -94,7 +93,7 @@ timeline-img: "/img/timeline/default.png"
 ###########
 # Contact #
 ###########
-email: "your@email.here"
+email: "karel@hynek.org"
 # Set a url pointing to your publish PGP Public Key here, and it will appear in the Contact section
 pgp: False
 ################
@@ -106,21 +105,18 @@ pgp: False
 
 # if the author_blurb is not set, then this feature is skipped
 author_blurb:
-  "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional
-  engineering projects. In his spare time, John likes to eat cotton candy."
+  "Karel Hynek --- senior researcher at CESNET and an assistant professor at the Czech Technical University, who specialize in leveraging artificial intelligence to address complex challenges in cybersecurity."
 author_blurb_image: "/img/author.png"
 ##################
 # Social Buttons #
 ##################
 social:
   - icon: "github"
-    url: "https://github.com/le4ker/personal-jekyll-theme"
+    url: "https://github.com/hynekkar"
   - icon: "linkedin-in"
-    url: "https://www.linkedin.com"
+    url: "https://www.linkedin.com/in/karel-hynek/"
   - icon: "x-twitter"
-    url: "https://twitter.com/"
-  - icon: "rss"
-    url: "https://le4ker.github.io/personal-jekyll-theme/feed.xml"
+    url: "https://x.com/prommisse"
 ############
 # 404 page #
 ############
@@ -132,8 +128,7 @@ err-404-img: "/img/labtocat.png"
 # Sections shown in the index page
 pages_list:
   About: "about"
-  Blog: "latest-post"
-  Timeline: "timeline"
+  Research: "papers"
   Contact: "contact"
 # Exclusion list from the generated _site
 exclude:
